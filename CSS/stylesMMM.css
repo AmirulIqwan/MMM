@@ -430,7 +430,7 @@ li {
     
 }
 
-@media screen and (max-width: 845px) {
+@media screen and (max-width: 767px) {
 
     #footer {
         margin-top: 0;
@@ -461,7 +461,7 @@ li {
         height: auto;
         padding: 0 0 0 0;
         position: relative;
-        right: 85px;
+        right: 70px;
     }
 
     .top-description {
@@ -471,7 +471,7 @@ li {
         line-height: 1.5rem;
     }
 
-    .pictures-image {
+    /* .pictures-image {
         width: 30%;
         margin: 20px auto;
         margin-top: 190px;
@@ -500,7 +500,7 @@ li {
         width: 0.1%;
         margin: 0 0;
         padding: 0;
-    }
+    } */
 
     .team-size {
         margin-left: 0;
@@ -519,7 +519,7 @@ li {
 
     .overview-description,
     .overview-description02 {
-        font-size: 16px;
+        font-size: 17px;
         margin: 0 40px 20px;
     }
 
@@ -529,12 +529,12 @@ li {
 
     .mocap-image01 {
         position: relative;
-        right: 50px;
+        right: 10px;
     }
 
     .mocap-image02 {
         position: relative;
-        right: 50px;
+        right: 10px;
     }
 
     .feature-box-02 {
