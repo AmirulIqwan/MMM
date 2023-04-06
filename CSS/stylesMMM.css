@@ -461,13 +461,13 @@ li {
         height: auto;
         padding: 0 0 0 0;
         position: relative;
-        right: 70px;
+        right: 65px;
     }
 
     .top-description {
         margin: 20px 40px;
         font-size: 16px;
-        padding: 20px 0 0 0;
+        padding: 20px 0 20px 0;
         line-height: 1.5rem;
     }
 
@@ -517,10 +517,14 @@ li {
         margin-bottom: 0;
     }
 
-    .overview-description,
+    .overview-description {
+        font-size: 16px;
+        margin: 0 40px 20px;
+    }
+
     .overview-description02 {
         font-size: 17px;
-        margin: 0 40px 20px;
+        margin: 0 0 20px;
     }
 
     li {
@@ -529,12 +533,12 @@ li {
 
     .mocap-image01 {
         position: relative;
-        right: 10px;
+        left: 5px;
     }
 
     .mocap-image02 {
         position: relative;
-        right: 10px;
+        left: 5px;
     }
 
     .feature-box-02 {
@@ -546,6 +550,54 @@ li {
         object-fit: cover;
     }
 
+    .black-section {
+        text-align: left;
+        font-size: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        position: relative;
+    }
+
+    .footer-link{
+        font-size: 13px;
+        text-align: left;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    .big-heading{
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+        margin: 0 0 0;
+    }
+
+    .section-link{
+        display: block;
+        padding: 0;
+    }
+
+    /* .marquee-home div{
+        font-size: 1rem;
+        animation-duration: 20s;
+        padding-left: 150%;
+    } */
+
+    .marquee-home div {
+        display: none;
+    }
+
+    .colored-section {
+        margin-top: -30px;
+    }
+
+    .container-fluid {
+        padding: 0 0;
+    }
+}
+
+@media screen and (max-width: 845px) {
     .black-section {
         text-align: left;
         font-size: 10px;
