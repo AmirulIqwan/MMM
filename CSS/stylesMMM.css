@@ -44,6 +44,7 @@ li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .feature-words {
@@ -82,7 +83,6 @@ li {
     text-align: left;
     padding: 3% 15%;
 }
-
 
 /* Title Image */
 
@@ -166,7 +166,7 @@ li {
 /* Pictures Section */
 
 #testimonials .carousel-inner {
-    height: 650px; /* set your desired height */
+    height: 1250px; /* set your desired height */
   }
 
 #testimonials{
@@ -331,6 +331,10 @@ li {
         font-size: 18px;
         padding: 20px 0 0 0;
         line-height: 2rem;
+    }
+
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
     }
 
     .pictures-image {
@@ -502,6 +506,10 @@ li {
         padding: 0;
     } */
 
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
+    }
+
     .team-size {
         margin-left: 0;
     }
@@ -631,6 +639,10 @@ li {
         animation-duration: 20s;
         padding-left: 150%;
     } */
+
+    #testimonials .carousel-inner {
+        height: 650px; /* set your desired height */
+    }
 
     .marquee-home div {
         display: none;
